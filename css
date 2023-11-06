@@ -1,0 +1,110 @@
+/* Define custom CSS variables for reuse */
+:root {
+    --blue: rgba(23, 37, 90, 1);
+    --menu-font-family: "Alegreya-Bold", Helvetica;
+    --menu-font-weight: 700;
+    --menu-font-size: 25px;
+    --menu-letter-spacing: 0px;
+    --menu-line-height: 83px;
+    --menu-font-style: normal;
+    --variable-collection-green: rgba(8, 192, 118, 1);
+    --variable-collection-pink: rgba(241, 171, 185, 1);
+}
+
+/* Style the contact section */
+.contact-section {
+    background-color: #f1abb9; /* Set the background color */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center-align text content */
+}
+
+.contact-section h2 {
+    font-size: 36px; /* Define font size for the section title */
+    color: var(--blue); /* Apply the custom blue color */
+}
+
+.contact-section p {
+    font-size: 20px; /* Define font size for the section description */
+    color: var(--blue); /* Apply the custom blue color */
+}
+
+.contact-section form {
+    max-width: 600px; /* Set the maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.contact-section label {
+    display: block; /* Display labels as block elements for spacing */
+    font-weight: 700; /* Apply a bold font weight to labels */
+    margin-top: 10px; /* Add top margin for spacing */
+    color: var(--blue); /* Apply the custom blue color to labels */
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%; /* Make input fields and textarea full width */
+    padding: 10px; /* Add padding inside input fields and textarea */
+    margin: 5px 0; /* Define margin for spacing around input elements */
+}
+
+.contact-section button {
+    background-color: var(--variable-collection-green); /* Apply custom green background color */
+    color: white; /* Set text color to white */
+    padding: 10px 20px; /* Define padding for the button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Apply pointer cursor on hover */
+    font-weight: 700; /* Apply a bold font weight to the button */
+    font-size: 18px; /* Define font size for the button */
+}
+
+/* Style the carousel container */
+.carousel-container {
+    max-width: 800px; /* Set the maximum width of the carousel container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f1abb9; /* Set the background color */
+}
+
+/* Style the carousel component */
+.carousel {
+    width: 100%; /* Make the carousel width 100% of the container */
+    margin: 0 auto; /* Center-align the carousel */
+}
+
+/* Style the carousel images */
+.carousel-item img {
+    width: 100%; /* Make carousel images fill the available width */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the carousel item with the image */
+}
+
+/* Style for the success message */
+.success-message {
+    background-color: #4CAF50; /* Set the background color to green */
+    color: white; /* Set text color to white */
+    padding: 10px; /* Add padding to the success message */
+    text-align: center; /* Center-align text content */
+    margin-top: 10px; /* Add top margin for spacing */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .desktop {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+    }
+    #myCarousel {
+        height: auto; /* Allow the carousel height to adjust to content */
+    }
+}
+
+@media (max-width: 576px) {
+    .desktop {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    #myCarousel {
+        height: auto; /* Allow the carousel height to adjust to content */
+    }
+    .p {
+        font-size: 24px; /* Modify font size for paragraph on smaller screens */
+    }
+}

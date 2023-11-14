@@ -1,0 +1,11 @@
+:root {
+    --blue: rgba(23, 37, 90, 1);
+    --menu-font-family: "Alegreya-Bold", Helvetica;
+    --menu-font-weight: 700;
+    --menu-font-size: 25px;
+    --menu-letter-spacing: 0px;
+    --menu-line-height: 83px;
+    --menu-font-style: normal;
+    --variable-collection-green: rgba(8, 192, 118, 1);
+    --variable-collection-pink: rgba(241, 171, 185, 1);
+}

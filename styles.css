@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E6F7F6; /* Light aqua background */
+  color: #34495E; /* Dark blue text */
+  text-align: center;
+  line-height: 1.6; /* Increased line spacing */
+}
+
+header {
+  background-color: #1C4361; /* Deep blue header background */
+  color: #E6F7F6; /* Light aqua header text */
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex; /* Center the navigation bar */
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1C4361; /* Deep blue links */
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #FF6B6B; /* Red links on hover */
+}
+
+.about {
+  padding: 20px;
+  background-color: #E6F7F6; /* Light aqua section background */
+  text-align: center; /* Center the content */
+}
+
+.about img {
+  max-width: 100%; /* Make images responsive */
+  display: block;
+  margin: 10px auto; /* Center the images horizontally with spacing */
+}
+
+.food-shelf {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid */
+  gap: 10px; /* Space between grid items */
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1C4361; /* Deep blue footer background */
+  color: #E6F7F6; /* Light aqua footer text */
+}
+
+/* Additional styling specific to your content can be added here */

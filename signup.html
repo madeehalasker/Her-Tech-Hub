@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>Join the Revolution</title>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="women_in_tech_logo.png" alt="Logo">
+    <ul class="nav-links">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="resources.html">RESOURCES</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+      <li><a href="signup.html" class="active">SIGN UP</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <form action="action_page.php" style="border:1px solid #ccc">
+      <h2 class="Join">Join the Revolution</h2>
+      <p class="cta">Create an account for free or <a href="https://learnto.codelikeagirl.com/sign-in">Log In</a></p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <div class="Remember">
+        <input type="checkbox" checked="checked" name="remember">
+        <span>Remember me</span>
+      </div>
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

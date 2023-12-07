@@ -18,6 +18,4 @@ Empowering women in tech and bridging the gender gap, this site provides women w
 1. Clone the repository.
 2. Open the `index.html` file in your web browser to view the homepage, as well as the rest of the pages.
 
-   ## License
-
-This project is licensed under the [MIT License](LICENSE).
+   

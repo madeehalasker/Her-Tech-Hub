@@ -1,3 +1,4 @@
-# CFG-Project
-Her Tech Hub - 
-A community of female and non-binary individuals who inspire, support and learn from each other.
+# Her Tech Hub
+
+Welcome to the Women in Tech Resource Hub, a collaborative project aimed at empowering women and breaking the gender gap in the tech industry. This repository serves as a central platform to gather and share resources, tools, and insights to support women in their journey to excel in technology-related fields.
+
